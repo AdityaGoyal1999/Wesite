@@ -1,4 +1,4 @@
-# [Perosnal Website](https://adigoyal.com/)
+# [Perosnal Website](https://adigoyal.com)
 
 ## Browser support
 
