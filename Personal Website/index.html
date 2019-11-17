@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aditya Goyal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /*Drop Down Menu*/
+        .dropbtn {
+          background-color: #4CAF50;
+          color: white;
+          padding: 20px;
+          font-size: 20px;
+          border: none;
+        }
+
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          font-size: 20px;
+          display: block;
+        }
+
+        .dropdown-content a:hover {background-color: #ddd;}
+
+        .dropdown:hover .dropdown-content {display: block;}
+
+        .dropdown:hover .dropbtn {background-color: #3e8e41;}
+        /*Drop Down Menu Ends*/
+        /*Header*/
+        .header{
+          padding: 1px;
+          background-color: #1abc9c;
+          color: white;
+          font-size: 4px;
+          font-family: Copperplate;
+        }
+
+        /*Header ends*/
+        body {
+            background-color: #ddd;
+        }
+        
+        h1 {
+            color: #ddd;
+            text-align: center;
+            font-family: Copperplate;
+            font-size: 60px;
+            margin-top: 0%;
+            margin-bottom: 1%;
+            margin-right: 150px;
+            margin-left: 80px;
+        }
+        
+        h3 {
+            color: #1abc9c;
+            font-family: Copperplate;
+            text-align: center;
+        }
+        p {
+          font-size: 30px;
+          font-family:Copperplate;
+          text-align: center;
+          color: #1abc9c;
+        }
+        img {
+            border-radius: 25%;
+            margin-left:20%;
+        }
+        * {
+          box-sizing: border-box;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+          height: 90%; /* Should be removed. Only for demonstration */
+          /*margin-top: 5%;*/
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        .fa {
+          padding: 20px;
+          font-size: 30px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 2px;
+          margin-left: 20%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+      <div class="dropdown">
+        <div class="nav">
+          <button class="dropbtn">About Me</button>
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+        </div>
+        <div class="dropdown-content">
+          <a href="University%20Life.html">University Life</a>
+          <a href="blogs.html">Blogs</a>
+          <a href="Contact%20me.html">Contact me</a>
+          <a href="Courses.html">Courses Taken</a>
+        </div>
+      </div>
+      <h1>Aditya Goyal</h1>
+    </div>
+
+    <a title="Main Page" href="index.html"></a>
+    <br>
+
+    <div class="row">
+      <div class="column" style="background-color: #ddd;">
+        <h1 style="margin-left: 20%; margin-top: 10%">Aditya Goyal</h1>
+        <h3>Computer Science Sophmore, Unviersity of Toronto(St. George Campus)</h3>
+        <p>"Pleasure in the job puts perfection in the work."</p>
+        <p style="margin-left:50%;"><i>~Aristotle</i></p>
+      </div>
+
+      <div class="column" style="background-color: #ddd;">
+        <img src="Me(3).PNG" width="300" height="515" >
+      </div>
+    </div>
+    <a href="https://www.linkedin.com/in/adi-goyal/" class="fa fa-linkedin"></a>
+    <a href="https://github.com/AdityaGoyal1999" class="fa fa-github"></a>
+    <a href="https://www.instagram.com/iamadityagoyal/" class="fa fa-instagram"></a>
+
+</body>
+
+</html>
