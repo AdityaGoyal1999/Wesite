@@ -10,7 +10,7 @@
         .dropbtn {
           background-color: #4CAF50;
           color: white;
-          padding: 20px;
+          padding: 10px;
           font-size: 20px;
           border: none;
         }
@@ -44,28 +44,25 @@
         .dropdown:hover .dropbtn {background-color: #3e8e41;}
         /*Drop Down Menu Ends*/
         /*Header*/
-        .header{
-          padding: 5px;
-          background-color: #1abc9c;
-          color: white;
-          font-size: 5px;
-          font-family: Copperplate;
-        }
 
+        header{
+          background: #1abc9c;
+          color: white;
+          font-size: 4vw;
+          font-family: Copperplate;
+          margin-top: 0%;
+        }
         /*Header ends*/
         body {
             background-color: #ddd;
         }
         
-        h1 {
+        #heading {
             color: #ddd;
             text-align: center;
             font-family: Copperplate;
             font-size: 60px;
-            margin-top: 0%;
-            margin-bottom: 1%;
-            margin-right: 150px;
-            margin-left: 80px;
+            position: center;
         }
         
         h3 {
@@ -116,7 +113,7 @@
 
 <body>
 
-    <div class="header">
+    <header>
       <div class="dropdown">
         <div class="nav">
           <button class="dropbtn">About Me</button>
@@ -125,36 +122,33 @@
           <div class="three"></div>
         </div>
         <div class="dropdown-content">
-          <a href="University%20Life.html">University Life</a>
-          <a href="blogs.html">Blogs</a>
+          <a href="projects.html">Projects</a>
           <a href="Contact%20me.html">Contact me</a>
           <a href="Courses.html">Courses Taken</a>
         </div>
       </div>
-      <h1>Aditya Goyal</h1>
-    </div>
+      <p id="heading">Aditya Goyal</p>
+    </header>
 
     <a title="Main Page" href="index.html"></a>
     <br>
-
     <div class="row">
       <div class="column" style="background-color: #ddd;">
-        <h1 style="margin-left: 10%; margin-top: 10%">Aditya Goyal</h1>
         <h3>Computer Science Sophmore, Unviersity of Toronto(St. George Campus)</h3>
         <p>"Pleasure in the job puts perfection in the work."</p>
         <p style="margin-left:50%;"><i>~Aristotle</i></p>
+          <a href="https://www.linkedin.com/in/adi-goyal/" class="fa fa-linkedin"></a>
+          <a href="https://github.com/AdityaGoyal1999" class="fa fa-github"></a>
+          <a href="https://www.instagram.com/iamadityagoyal/" class="fa fa-instagram"></a>
       </div>
 
       <div class="column" style="background-color: #ddd;">
-        <img src="Me(3).PNG" width="320" height="480" >
+        <img src="Me(3).PNG" width="250" height="400" >
       </div>
     </div>
-    <a href="#" class="fa fa-linkedin"></a>
-    <a href="#" class="fa fa-github"></a>
-    <a href="#" class="fa fa-instagram"></a>
-    <!---->
-    <!--<img src="me(1).jpg" alt="That's me" width="304" height="275" style="margin:5% 37%">-->
+    <footer>
 
+    </footer>
 </body>
 
 </html>
